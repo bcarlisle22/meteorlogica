@@ -28,14 +28,12 @@ function changeBackgroundImage(){
         // images/cloudy-gif.mp4'
         document.getElementById("weather").innerHTML = "CLOUDY";
         //break;
-
     }
     //rainy
     if (weatherStatus == "RAIN"){
         weatherBackground.style.backgroundImage = "url('images/rainy.jpg')";
         document.getElementById("weather").innerHTML = "RAIN";
         //break;
-
     }
     //stormy
     if (weatherStatus == "STORM"){
@@ -43,7 +41,6 @@ function changeBackgroundImage(){
         document.getElementById("weather").innerHTML = "SEVERE THUNDER WARNING";
         window.alert("SEVERE THUNDERSTORM WARNING in effect for your area. Take shelter in a sturdy building, away from windows. Flying debris may be deadly to those caught without")
         //break;
-        
     }
     //tornado
     if (weatherStatus == "TORNADO"){
@@ -51,7 +48,20 @@ function changeBackgroundImage(){
         document.getElementById("weather").innerHTML = "TORNADO WARNING";
         window.alert("TORNADO WARNING in effect for your area. Take shelter now in a basement or an interior room on the lowest floor of a sturdy building.")
         //break;
-
     }
-    
+    if (weatherStatus == "FOGGT"){
+        weatherBackground.style.backgroundImage = "url(' ')";
+        document.getElementById("weather").innerHTML = "FOGGY";
+        //break;
+    }
+    if (weatherStatus == "SNOW"){
+        weatherBackground.style.backgroundImage = "url(' ')";
+        document.getElementById("weather").innerHTML = "SNOW";
+        //break;
+    }
+    if (weatherStatus == "WINDY"){
+        weatherBackground.style.backgroundImage = "url(' ')";
+        document.getElementById("weather").innerHTML = "WINDY";
+        //break;
+    }
 }
