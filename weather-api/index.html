@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/1f8e1d8ac5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="short icon" href="images/w.png">
+    <title> Meteorlogica - The Weather App </title>
+</head>
+<body onload="changeBackgroundImage()">
+
+    <div class="weather" id="weatherPage">
+        <div class="weather-search">
+            
+            <input type="text" placeholder="Search city, state" id="search-bar">
+            <!-- <span class="material-symbols-outlined"> search</span> -->
+        </div>
+        
+        <div class="weather-content">
+
+            <div class="weather-location" id="location">
+                <h1> Nashville, TN </h1>
+            </div>
+        
+            <div class="weather-temperature" id="temperature">
+                <h1> 80 &deg; F </h1>
+            </div>
+
+            <div class="weather-title">
+                <h1 id="weather">  </h1>
+            </div>
+
+            <div class="weather-hl">
+                <div class="weather-high" id="high">
+                    <h1> H: 68 &deg; F </h1>
+                </div>
+
+                <div class="weather-low" id="low">
+                    <h1> L: 88 &deg; F </h1>
+                </div>
+            </div>
+
+            <div class="weather-sun-content">
+                <div class="weather-sunrise" id="sunrise">
+                    <h1> SUNRISE: 6:02am </h1>
+                </div>
+
+                <div class="weather-sunset" id="sunset">
+                    <h1> SUNSET: 6:02pm </h1>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</body>
+<script src="index.js"></script> <!-- spent ALL DAY trying to 
+    figure out why my javascript wasnt working, I linked the page wrong LOL. i put "href="" instead of "src". link page correctly! (*face palm*)-->
+</html>
